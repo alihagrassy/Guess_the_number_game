@@ -6,7 +6,7 @@ def guess_the_number(x,guess):
             print("Great Job you have the right number")
             return
         elif x<y:
-            print("The number is  biger")
+            print("The number is  bigger")
             guess-=1
             guess_the_number(x,guess)
         elif x>y:
